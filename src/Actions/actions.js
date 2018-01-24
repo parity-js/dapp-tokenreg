@@ -58,7 +58,7 @@ export const registerToken = (tokenData) => (dispatch, getState) => {
     .then(() => {
       return contractInstance
         .fromTLA.call({}, [ tla ])
-        .then(([id, address, base, name, owner]) => {
+        .then(([, , , , owner]) => {
           if (owner !== '0x0000000000000000000000000000000000000000') {
             throw new Error(`A Token has already been registered with the TLA ${tla}`);
           }
@@ -67,7 +67,7 @@ export const registerToken = (tokenData) => (dispatch, getState) => {
     .then(() => {
       return contractInstance
         .fromAddress.call({}, [ address ])
-        .then(([id, tla, base, name, owner]) => {
+        .then(([, , , , owner]) => {
           if (owner !== '0x0000000000000000000000000000000000000000') {
             throw new Error(`A Token has already been registered with the Address ${address}`);
           }
@@ -81,7 +81,7 @@ export const registerToken = (tokenData) => (dispatch, getState) => {
       options.gas = gasEstimate.mul(1.2).toFixed(0);
       return contractInstance.register.postTransaction(options, values);
     })
-    .then((result) => {
+    .then(() => {
       dispatch(registerCompleted());
     })
     .catch((e) => {

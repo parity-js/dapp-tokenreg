@@ -46,7 +46,7 @@ export const urlToHash = (ghhInstance, url) => {
 
       return ghhInstance.entries
         .call({}, [contentHash])
-        .then(([accountSlashRepo, commit, contentHashOwner]) => {
+        .then(([, , contentHashOwner]) => {
           const registered = (contentHashOwner !== ZERO_ADDRESS);
 
           return {

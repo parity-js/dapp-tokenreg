@@ -170,7 +170,10 @@ export default class RegisterAction extends Component {
     const { fields } = this.state;
 
     return Object.keys(fields).map((fieldKey, index) => {
-      const onChange = this.onChange.bind(this, fieldKey);
+      const onChange = (valid, value) => {
+        this.onChange(fieldKey, valid, value);
+      };
+
       const field = fields[fieldKey];
 
       return (
