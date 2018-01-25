@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-tokenreg",
   "description": "Parity Token Registration",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -23,7 +23,7 @@
     "test": "parity-react-dapp test"
   },
   "devDependencies": {
-    "parity-react-dapp": "github:Parity-JS/parity-react-dapp#5fef0b0"
+    "parity-react-dapp": "github:Parity-JS/parity-react-dapp#7c632fc"
   },
   "dependencies": {
     "@parity/api": "^2.1.15",

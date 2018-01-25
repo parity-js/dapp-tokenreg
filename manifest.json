@@ -3,6 +3,6 @@
   "name": "dapp-tokenreg",
   "description": "Token network registry",
   "author": "Parity Team <admin@parity.io>",
-  "version": "1.1.4",
+  "version": "1.1.1",
   "iconUrl": "icon.png"
 }
