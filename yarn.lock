@@ -5848,9 +5848,9 @@ param-case@2.1.x:
   dependencies:
     no-case "^2.2.0"
 
-"parity-react-dapp@github:Parity-JS/parity-react-dapp#373914f":
-  version "0.5.0"
-  resolved "https://codeload.github.com/Parity-JS/parity-react-dapp/tar.gz/373914fe9e3be8ebc101074131121f73551f3564"
+"parity-react-dapp@github:Parity-JS/parity-react-dapp#cc50d4b":
+  version "0.6.0"
+  resolved "https://codeload.github.com/Parity-JS/parity-react-dapp/tar.gz/cc50d4be08e5dfce07c2832c74ebec0ad7ecbd6d"
   dependencies:
     "@parity/api" "^2.1.18"
     "@parity/shared" "^2.2.22"
