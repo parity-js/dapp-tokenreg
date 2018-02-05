@@ -18,12 +18,11 @@
     "lint": "parity-react-dapp lint",
     "lint:css": "parity-react-dapp lint-css",
     "lint:js": "parity-react-dapp lint-js",
-    "release": "parity-react-dapp release",
     "start": "parity-react-dapp start",
     "test": "parity-react-dapp test"
   },
   "devDependencies": {
-    "parity-react-dapp": "github:Parity-JS/parity-react-dapp#7c632fc"
+    "parity-react-dapp": "github:Parity-JS/parity-react-dapp#3647791"
   },
   "dependencies": {
     "@parity/api": "2.1.15",

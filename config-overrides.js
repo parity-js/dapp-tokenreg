@@ -1,7 +1,7 @@
-const injectParityReactDapp = require('parity-react-dapp/inject');
+const rewireParity = require('react-app-rewire-parity');
+const proxyParity = require('parity-react-dapp/proxy');
 
-module.exports = (config) => {
-  config = injectParityReactDapp(config);
-
-  return config;
+module.exports = {
+  webpack: (config) => rewireParity(config),
+  devServer: (configFunction) => proxyParity(configFunction)
 };

@@ -16,7 +16,13 @@
 
 import Api from '@parity/api';
 
-const ethereumProvider = window.ethereum || window.parent.ethereum;
+let ethereumProvider;
+
+try {
+  ethereumProvider = window.ethereum || window.parent.ethereum;
+} catch (error) {
+  console.error(error.message);
+}
 
 if (!ethereumProvider) {
   throw new Error('Unable to locate EthereumProvider, object not attached');
