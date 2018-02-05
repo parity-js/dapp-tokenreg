@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-tokenreg",
   "description": "Parity Token Registration",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -18,11 +18,12 @@
     "lint": "parity-react-dapp lint",
     "lint:css": "parity-react-dapp lint-css",
     "lint:js": "parity-react-dapp lint-js",
+    "release": "parity-react-dapp release",
     "start": "parity-react-dapp start",
     "test": "parity-react-dapp test"
   },
   "devDependencies": {
-    "parity-react-dapp": "github:Parity-JS/parity-react-dapp#3647791"
+    "parity-react-dapp": "github:Parity-JS/parity-react-dapp#5e67fd0"
   },
   "dependencies": {
     "@parity/api": "2.1.15",
@@ -32,6 +33,5 @@
     "react-dom": "15.6.1",
     "react-tap-event-plugin": "2.0.1",
     "validator": "6.2.0"
-  },
-  "peerDependencies": {}
+  }
 }
