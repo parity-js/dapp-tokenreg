@@ -173,6 +173,7 @@ export default class RegisterAction extends Component {
       const onChange = this.onChange.bind(this, fieldKey);
       const field = fields[fieldKey];
 
+      /* eslint-disable react/jsx-no-bind */
       return (
         <InputText
           key={ index }

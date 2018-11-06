@@ -20,7 +20,6 @@ import { Provider } from 'react-redux';
 import { AppContainer } from 'react-hot-loader';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
 
 import store from './store';
 import Container from './Container';
@@ -28,6 +27,8 @@ import Container from './Container';
 import '@parity/shared/assets/fonts/Roboto/font.css';
 import '@parity/shared/assets/fonts/RobotoMono/font.css';
 import './style.css';
+
+injectTapEventPlugin();
 
 ReactDOM.render(
   <AppContainer>

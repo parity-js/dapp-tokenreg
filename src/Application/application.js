@@ -70,12 +70,12 @@ export default class Application extends Component {
         <Tokens />
         {
           hideWarning
-          ? null
-          : (
-            <div className={ styles.warning } onClick={ this.handleHideWarning }>
+            ? null
+            : (
+              <div className={ styles.warning } onClick={ this.handleHideWarning }>
               WARNING: The token registry is experimental. Please ensure that you understand the steps, risks, benefits & consequences of registering a token before doing so. A non-refundable fee of { api.util.fromWei(contract.fee).toFormat(3) }<small>ETH</small> is required for all registrations.
-            </div>
-          )
+              </div>
+            )
         }
       </div>
     );
