@@ -9,24 +9,24 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@parity/abi@2.1.x":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-2.1.2.tgz#f5946575440dd722480d41cfd53d25f991a64aef"
-  integrity sha512-DVH7aEZrSc0seimtehO6pCkkJ/oqXZanAXJXKqgk6x1vSc276pAk7xOcMNe3RKio7VfnIi9c05tqqTX8hUG5hw==
+"@parity/abi@~2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-2.1.4.tgz#23e2b9e6d37a54035b76d941d6d74b9c5d21fb99"
+  integrity sha512-4yPqCYXlLhb9jmmAg+0SkA/2Rmf1ZvPzmGF3WBKvgrAjWPAvj5hZYW5rquRqrP3L22KfG+7A9RAw3aZYp45AMQ==
   dependencies:
-    bignumber.js "3.0.1"
+    bignumber.js "4.1.0"
     js-sha3 "0.5.5"
     utf8 "^2.1.2"
 
-"@parity/api@^2.1.15":
-  version "2.1.16"
-  resolved "https://registry.yarnpkg.com/@parity/api/-/api-2.1.16.tgz#e120bd5c65d8593694ed331b0264e81052e94c05"
-  integrity sha512-6TW0Sd/UxETCxjx2leGlnqNmQOJBcjvCBiob4lH29cMxI31DDVDfU8fxHqfytoXUoql7NDZRYwv1gw3V3UvKqw==
+"@parity/api@^2.1.24":
+  version "2.1.24"
+  resolved "https://registry.yarnpkg.com/@parity/api/-/api-2.1.24.tgz#e04ca177598354b435b83c8cfe7c7c3672bf3e44"
+  integrity sha512-jJ93cyC5eZC9pQY/FXcSyQiFHNzg5wFzrVLB+RVfbKbIqCWmOAhlv+rssN35qPZ4ccehIGgFB5i7rkpfSajzkQ==
   dependencies:
-    "@parity/abi" "2.1.x"
+    "@parity/abi" "~2.1.4"
     "@parity/jsonrpc" "2.1.x"
     "@parity/wordlist" "1.1.x"
-    bignumber.js "3.0.1"
+    bignumber.js "4.1.0"
     blockies "0.0.2"
     es6-error "4.0.2"
     es6-promise "^4.1.1"
@@ -1288,6 +1288,11 @@ bignumber.js@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-3.0.1.tgz#807652d10e39de37e9e3497247edc798bb746f76"
   integrity sha1-gHZS0Q453jfp40lyR+3HmLt0b3Y=
+
+bignumber.js@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-4.1.0.tgz#db6f14067c140bd46624815a7916c92d9b6c24b1"
+  integrity sha512-eJzYkFYy9L4JzXsbymsFn3p54D+llV27oTQ+ziJG7WFRheJcNZilgVXMG0LoZtlQSKBsJdWtLFqOD0u+U0jZKA==
 
 binary-extensions@^1.0.0:
   version "1.11.0"
