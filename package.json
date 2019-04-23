@@ -68,7 +68,7 @@
     "react-hot-loader": "4.8.4",
     "react-tap-event-plugin": "2.0.1",
     "style-loader": "^0.23.1",
-    "stylelint": "^9.10.1",
+    "stylelint": "^10.0.1",
     "stylelint-config-standard": "^18.3.0",
     "url-loader": "^1.1.2",
     "validator": "10.11.0",
