@@ -200,21 +200,21 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@parity/abi@^5.1.13":
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-5.1.13.tgz#256e8ee553d61ede4c94b766c3d3c67fbda685e9"
-  integrity sha512-ldOZrUokXmK8iBw1U3Y6apOWoAJ06cGYmEuUi+rQoRi/3txzNXo2aBWq4C3pHh+x5NXfFd3RvR13zwcWPopshQ==
+"@parity/abi@^5.1.14":
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/@parity/abi/-/abi-5.1.14.tgz#732046071273b9ab05ce57b7dd881150872b2562"
+  integrity sha512-u59YKn9ndfxUtyTiwM7cJ38ODye/edH3OBgflROVAlS2JLbIucqbatXgE3ZhmfDKdkifTkVJvRJ+QyaAMs+eaQ==
   dependencies:
     bignumber.js "^8.0.1"
     js-sha3 "0.8.0"
     utf8 "^3.0.0"
 
-"@parity/api@^5.1.13":
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/@parity/api/-/api-5.1.13.tgz#a9775eac4cb674a9e93a025d7795c933500eea61"
-  integrity sha512-8QCr70kGk97KqZejK/czSPRlxyDYIhM5zw83yRgtHy5nroIbLBlu0uMIeq0PqopQaO4VvtEuZZHbOEpdtqnLKg==
+"@parity/api@^5.1.14":
+  version "5.1.14"
+  resolved "https://registry.yarnpkg.com/@parity/api/-/api-5.1.14.tgz#b9a5ae815d14ee9111f7a3501a71dcf31f3d458b"
+  integrity sha512-B4EdI57f6dqnFJ7XOR61qNX8zV2y1uKU8vVwigkqmZDqoEXRarpHYjhm21VxC3NDCC/RuyHUhIwt/7QiamXjTg==
   dependencies:
-    "@parity/abi" "^5.1.13"
+    "@parity/abi" "^5.1.14"
     bignumber.js "^8.0.1"
     blockies "0.0.2"
     es6-error "4.0.2"
