@@ -65,7 +65,7 @@
     "postcss-simple-vars": "5.0.2",
     "react": "15.6.2",
     "react-dom": "15.6.2",
-    "react-hot-loader": "4.12.14",
+    "react-hot-loader": "4.12.15",
     "react-tap-event-plugin": "2.0.1",
     "style-loader": "^0.23.1",
     "stylelint": "^11.0.0",
